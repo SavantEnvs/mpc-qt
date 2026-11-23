@@ -1,0 +1,18 @@
+fromDateFormat.hms	3723
+fromDateFormat.short	-1
+fromDateFormat.big	-1
+timeFromCFormat	12:34:56
+timeFromCFormat.short	invalid
+dateFromCFormat	2021-03-15
+dateFromCFormat.short	invalid
+toDateFormat	1:02:03.500
+toDateFormatFixed	01:05.000
+sizeFromString	1 640 480
+pointFromString	1 10 20
+parseFormat	Movie-p{}subs
+displayParser	Band - Song
+displayParser.noartist	Unknown Artist - file.flac
+m3u.roundtrip	/a/b.mkv|http://example.com/c.mp3
+readM3U	/x/one.mkv|/x/two.mkv
+playlist.json	1 Mine 1 /v/a.mkv|/v/b.mkv
+mouseState	Shift Left Up

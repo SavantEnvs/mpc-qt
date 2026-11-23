@@ -1,0 +1,9 @@
+project: savantenvs/mpc-qt
+target: timeparse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/timeparse/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_timeparse
+    libfuzzer: true
+    timeout: 10

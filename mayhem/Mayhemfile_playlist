@@ -1,0 +1,9 @@
+project: savantenvs/mpc-qt
+target: playlist
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/playlist/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_playlist
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,2 @@
+GET /browser.html?path=%2Ftmp HTTP/1.1
+

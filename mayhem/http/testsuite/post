@@ -1,0 +1,4 @@
+POST /command.html HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+wm_command=-2&volume=40%25&position=00%3A01%3A02
